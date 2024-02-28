@@ -1,2 +1,10 @@
-# average-of-two-numbers-greater-than-other
-Finding if average of two numbers is greater than other number
+n=int(input())
+for i in range(n):
+  a,b,c=map(int, input().split())
+  z=(a+b)/2
+  if(z>c):
+       print("YES")
+  else:
+       print("NO")
+
+
